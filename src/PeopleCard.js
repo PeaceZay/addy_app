@@ -6,8 +6,8 @@ function PeopleCard(props) {
 
 
     return (
-        <li style={{ listStyle: "none" }}>
-            <img src={props.picture}></img>
+        <li style={{ listStyle: "none", display: "flex",marginTop:"10px" }}>
+            <img style={{border: "dotted"}} src={props.picture}></img>
             <h3>{props.name}</h3>
             {isClicked ?
 
